@@ -1,0 +1,17 @@
+<table id="t" class="table">
+    <thead class="thead-dark">
+        <tr >
+            <td>id</td>
+            <td>Name</td>
+            <td>Location</td>
+            <td>Gst No</td>
+           
+    </thead>
+   
+        <tr *ngFor="let item of data">
+            <td>{{ item.EmpId }}</td>
+            <td>{{ item.EmpName }}</td>
+            <td>{{ item.EmpLoc }}</td>
+            <td>{{ item.EmpGst }}</td>
+         </tr>
+</table>
